@@ -1,0 +1,23 @@
+
+no se puede usar if 
+
+PlanInterface
+    getPeriod()
+    getPrice()
+    getName()
+    TrialPlan
+    PaidPlan
+    GiftPlan
+ 
+SubscriberInterface
+    setEmail()
+    getEmail()
+    subcribe(PlanInterface $plan)
+    getPlan(): PlanInterface
+    cancel()
+
+SubscriptionInterface
+    setSubscriber(SubscriberInterface $s)
+    getExpirationDate()
+    getCreatorDate()
+    setPlan(PlanInterface $s)
