@@ -11,8 +11,8 @@ require 'Plan.php';
 $plan = new Plan;
 
 $plan
-->setPlanName($setPlanName('PaidPlan'))
-->setPrice($setPrice('9.99'))
-->setPeriod($setPeriod('30Dias'));
+->setPlanName('PaidPlan')
+->setPrice('9.99')
+->setPeriod('30Dias');
 
 var_dump($plan);
